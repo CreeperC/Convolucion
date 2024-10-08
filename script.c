@@ -291,6 +291,7 @@ int filtroKirch(char nombre[], char out[])
 }
 
 
+
 int convolucionar_Magnitud(char nombre[],char out[],int matrix[][3], int matrix2[][3])
 {
 	
@@ -448,6 +449,8 @@ int convolucionar_Magnitud(char nombre[],char out[],int matrix[][3], int matrix2
 	fclose(img2);
 	return 0;
 }
+
+
 
 
 int umbralizar(char nombre[],char out[], int umbral)
